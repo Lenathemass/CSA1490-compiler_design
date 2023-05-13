@@ -63,33 +63,3 @@ int main() {
     }
     getch();
 }
-
-
-
-
-
-Output:
-
-        E       +       T
-        E       *       T
-        E       (       T
-        E       )       F
-        E       i       T
-        E       $       F
-        F       +       F
-        F       *       F
-        F       (       T
-        F       )       F
-        F       i       T
-        F       $       F
-        T       +       F
-        T       *       T
-        T       (       T
-        T       )       F
-        T       i       T
-        T       $       F
-
-
-        E -> + * ( i
-        F -> ( i
-        T -> * ( i
